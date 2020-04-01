@@ -62,7 +62,6 @@
           alt="Coastal view of ocean and mountains"
         />
       </picture>
-      <!-- <img src="assets/images/hero--large.jpg" /> -->
       <div class="large-hero__text-content">
         <div class="wrapper">
           <h1 class="large-hero__title">Your clarity.</h1>
@@ -90,19 +89,24 @@
           Ever since, we&rsquo;ve been working to make travel
           <strong>better for everyone.</strong>
         </h3>
-        <div class="wrapper wrapper--medium">
+        <div class="wrapper wrapper--medium wrapper--b-margin">
           <img
-            src="assets/images/first-trip.jpg"
+            sizes="(min-width: 976px) 976px, 100vw"
+            srcset="assets/images/first-trip-low-res-i.jpg 565w, assets/images/first-trip-i.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w"
             alt="Couple walking down a street."
           />
         </div>
         <div class="row row--gutters">
-          <div class="row__medium-4">
+          <div class="row__medium-4 row__medium-4--larger">
+            <picture>
+              <source sizes="404px" srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" media="(min-width: 1020px)">
+              <source sizes="320px" srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)">
             <img
-              src="assets/images/our-start.jpg"
+              srcset="assets/images/our-start-landscape.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w"
               alt="Our founder, Jane Doe"
             />
-          </div class="row__medium-8">
+          </picture>
+          </div class="row__medium-8 row__medium-8--smaller">
           <div>
             <h2 class="headline">Here&rsquo;s how we got started&hellip;</h2>
             <p>
