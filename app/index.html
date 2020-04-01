@@ -92,49 +92,76 @@
         <div class="wrapper wrapper--medium wrapper--b-margin">
           <img
             sizes="(min-width: 976px) 976px, 100vw"
-            srcset="assets/images/first-trip-low-res-i.jpg 565w, assets/images/first-trip-i.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w"
+            srcset="
+              assets/images/first-trip-low-res.jpg  565w,
+              assets/images/first-trip.jpg          976w,
+              assets/images/first-trip-hi-dpi.jpg  1952w
+            "
             alt="Couple walking down a street."
           />
         </div>
         <div class="row row--gutters">
-          <div class="row__medium-4 row__medium-4--larger">
+          <div
+            class="row__medium-4 row__medium-4--larger row__b-margin-until-medium"
+          >
             <picture>
-              <source sizes="404px" srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" media="(min-width: 1020px)">
-              <source sizes="320px" srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)">
-            <img
-              srcset="assets/images/our-start-landscape.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w"
-              alt="Our founder, Jane Doe"
-            />
-          </picture>
-          </div class="row__medium-8 row__medium-8--smaller">
-          <div>
-            <h2 class="headline">Here&rsquo;s how we got started&hellip;</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam,
-              <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p>
-              Duis aute irure dolor in
-              <strong>reprehenderit in</strong> voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-              non proident, sunt in culpa qui officia deserunt mollit anim id
-              est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua.
-            </p>
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum velit esse cillum
-              <strong>dolore eu fugiat.</strong>
-            </p>
+              <source
+                sizes="404px"
+                srcset="
+                  assets/images/our-start.jpg        404w,
+                  assets/images/our-start-hi-dpi.jpg 808w
+                "
+                media="(min-width: 1020px)"
+              />
+              <source
+                sizes="320px"
+                srcset="
+                  assets/images/our-start-portrait.jpg        382w,
+                  assets/images/our-start-portrait-hi-dpi.jpg 764w
+                "
+                media="(min-width: 800px)"
+              />
+              <img
+                srcset="
+                  assets/images/our-start-landscape.jpg         800w,
+                  assets/images/our-start-landscape-hi-dpi.jpg 1600w
+                "
+                alt="Our founder, Jane Doe"
+              />
+            </picture>
+          </div>
+          <div class="row__medium-8 row__medium-8--smaller">
+            <div class="generic-content-container">
+              <h2 class="headline headline--no-t-margin">
+                Here&rsquo;s how we got started&hellip;
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam,
+                <a href="#">quis nostrud exercitation</a> ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p>
+                Duis aute irure dolor in
+                <strong>reprehenderit in</strong> voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.
+              </p>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum velit esse cillum
+                <strong>dolore eu fugiat.</strong>
+              </p>
+            </div>
           </div>
         </div>
       </div>
