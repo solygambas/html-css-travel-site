@@ -12,4 +12,6 @@
 @import "modules/_section-title";
 @import "modules/_feature-item";
 @import "modules/_testimonial";
+@import "modules/_site-header";
 @import "modules/_site-footer";
+@import "modules/_primary-nav";
