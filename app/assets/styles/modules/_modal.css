@@ -1,4 +1,8 @@
 .modal {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.2);
+  transition: all 0.3s ease-out;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -7,6 +11,12 @@
   background-color: rgba(255, 255, 255, 0.94);
   z-index: 5;
   display: flex;
+
+  &&--is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
 
   &__inner {
     flex: 1;
