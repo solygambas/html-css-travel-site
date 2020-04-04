@@ -1,0 +1,37 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.94);
+  z-index: 5;
+  display: flex;
+
+  &__inner {
+    flex: 1;
+    margin: auto;
+  }
+
+  &__description {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.65;
+  }
+
+  &__close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 2rem;
+    transform: scaleX(1.2);
+    transform-origin: 100% 0;
+    cursor: pointer;
+    color: $mainBlue;
+
+    &:hover {
+      color: $mainOrange;
+    }
+  }
+}
