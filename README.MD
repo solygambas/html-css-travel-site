@@ -9,7 +9,7 @@ A travel website to understand BEM architecture, PostCSS and Webpack.
 ## CSS
 
 - using BEM architecture to organize CSS blocks.
-- identifying design patterns (wrapper, page section, row, columns, etc.)
+- identifying design patterns (wrapper, page section, row, columns, etc.).
 - applying PostCSS syntax for nested CSS, variables and mixins.
 - designing with the mobile-first philosophy in mind.
 - handling responsive images with art direction (cropping), srcset and sizes.
@@ -23,7 +23,7 @@ A travel website to understand BEM architecture, PostCSS and Webpack.
 - organizing JavaScript code with classes in an Object-Oriented Programming approach.
 - revealing elements on scroll for features and testimonials.
 - limiting function calls with lodash throttle and debounce.
-- showing active link in the primary-nav menu.
+- showing active link on scroll in the primary-nav menu.
 - building a modal lightbox overlay for getting in touch.
 - splitting JavaScript code to load Modal.js only when needed.
 - lazy loading images with lazysizes.
