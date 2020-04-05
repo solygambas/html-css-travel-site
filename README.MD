@@ -6,6 +6,10 @@ A travel website to understand BEM architecture, PostCSS and Webpack.
 
 [See Demo deployed on Netlify](https://clear-view-escapes-demo.netlify.com)
 
+## Git
+
+- developing new features with git branch and integrating them with git merge and --no-ff option.
+
 ## CSS
 
 - using BEM architecture to organize CSS blocks.
@@ -27,6 +31,7 @@ A travel website to understand BEM architecture, PostCSS and Webpack.
 - building a modal lightbox overlay for getting in touch.
 - splitting JavaScript code to load Modal.js only when needed.
 - lazy loading images with lazysizes.
+- integrating React in an existing project.
 
 ## Webpack
 
@@ -36,14 +41,10 @@ A travel website to understand BEM architecture, PostCSS and Webpack.
 - using html-webpack-plugin to copy index.html with proprer chunkhash for CSS and JS files.
 - using fs-extra to copy assets in docs directory.
 
-## Git
-
-- developing new features with git branch and integrating them with git merge and --no-ff option.
-
 ## Netlify
 
 - deploying on Netlify.
-- granting access to a secret area with Netlify Functions.
+- granting access to a secret area with Axios and Netlify Functions.
 - testing requests with Postman.
 
 Based on [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/) by Brad Schiff (2019).
