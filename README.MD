@@ -40,4 +40,10 @@ A travel website to understand BEM architecture, PostCSS and Webpack.
 
 - developing new features with git branch and integrating them with git merge and --no-ff option.
 
+## Netlify
+
+- deploying on Netlify.
+- granting access to a secret area with Netlify Functions.
+- testing requests with Postman.
+
 Based on [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/) by Brad Schiff (2019).
