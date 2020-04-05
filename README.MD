@@ -4,7 +4,7 @@ A travel website to understand BEM architecture, PostCSS and Webpack.
 
 ## Demo
 
-[See Demo deployed on GitHub Pages](https://solygambas.github.io/html-css-travel-site/)
+[See Demo deployed on Netlify](https://clear-view-escapes-demo.netlify.com)
 
 ## CSS
 
