@@ -6,6 +6,8 @@ A travel website to understand BEM architecture, PostCSS and Webpack.
 
 [See Demo deployed on Netlify](https://clear-view-escapes-demo.netlify.com)
 
+![](screenshot.png)
+
 ## Git
 
 - developing new features with git branch and integrating them with git merge and --no-ff option.
