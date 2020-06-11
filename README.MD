@@ -6,7 +6,11 @@ A travel website to understand BEM architecture, PostCSS and Webpack.
 
 [See Demo deployed on Netlify](https://clear-view-escapes-demo.netlify.com)
 
-![](screenshot.png)
+<p align="center">
+  <a href="https://clear-view-escapes-demo.netlify.com">
+    <img src="screenshot.png" alt="See Demo deployed on Netlify">
+  </a>
+</p>
 
 ## Git
 
